@@ -581,6 +581,28 @@ hr.two {
     padding-left: 10px;
 }
 
+.contact-us-banner {
+    background: url(/img/contact\ us\ banner.jpg);
+    background-size: cover;
+    height: 20vh;
+}
+
+.contact-us-banner h1 {
+    color: green;
+    width: 55%;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-us-banner-content span {
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 18px;
+    color: blueblack;
+    padding-left: 10px;
+}
+
 
 /*----- End of Banner -----*/
 
@@ -653,9 +675,10 @@ hr.one {
 
 .map-section {
     padding-left: 65px;
-    background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+    background-image: url(/img/map\ bg\ one.jpg);
     background-size: cover;
-    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px
 }
 
 
