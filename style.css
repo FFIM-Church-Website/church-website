@@ -647,3 +647,16 @@ hr.one {
 
 
 /*------ End of Music Ministry des. con. ------*/
+
+
+/*---- Map ----*/
+
+.map-section {
+    padding-left: 65px;
+    background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+    background-size: cover;
+    margin-top: 50px;
+}
+
+
+/*---- End of Map ----*/
