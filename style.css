@@ -459,9 +459,16 @@ hr.two {
 .footer-2 {
     background: #343a40;
     color: #686868;
-    text-align: center;
-    height: 50px;
+    text-align: right;
+    height: 80px;
     padding-top: 10px;
+    padding-left: 50px;
+}
+
+.footer-2 .navbar-brand {
+    padding-right: 500px;
+    padding-top: 8px;
+    margin-left: -200px;
 }
 
 
@@ -678,7 +685,8 @@ hr.one {
     background-image: url(/img/map\ bg\ two.jpg);
     background-size: cover;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 
