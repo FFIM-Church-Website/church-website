@@ -478,7 +478,7 @@ hr.two {
 /*-----Banner-----*/
 
 .banner {
-    background: url(/img/music\ ministry\ banner.jpg);
+    background: url(img/music\ ministry\ banner.jpg);
     background-size: cover;
     height: 20vh;
 }
