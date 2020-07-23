@@ -64,7 +64,7 @@
 /*----- Welcome Message -----*/
 
 .welcome-message {
-    background: white;
+    background: green;
     height: auto;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -211,151 +211,6 @@
 
 /*---leadership profile---*/
 
-a {
-    text-decoration: none;
-}
-
-.team-area {
-    padding: 125px 0 0 0;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: -80px;
-    margin-left: 50px;
-}
-
-.team-container {
-    width: 1100px;
-    height: auto;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    margin-left: 20px;
-}
-
-.single-img {
-    border-radius: 5px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    width: 325px;
-    height: 350px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    transform: translate(0, 0);
-    transition: 0.3s;
-    border-radius: 5%;
-}
-
-.single-img:hover {
-    transform: translate(0, -9px);
-}
-
-.img-one {
-    background-image: url();
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-}
-
-.img-two {
-    background-image: url();
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-}
-
-.img-three {
-    background-image: url(/img/Rev.\ Anaman.jpg);
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-}
-
-.img-text {
-    background: #fff;
-    padding: 0 10px 5px 10px;
-    width: 100%;
-    height: auto;
-    position: relative;
-    transform: translate(0, 110px);
-    line-height: 24px;
-    transition: 0.5s ease;
-    display: inline-block;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 150px;
-}
-
-.img-text p {
-    text-align: center;
-    color: gray;
-    font-size: 20px;
-}
-
-.img-text p i {
-    padding-right: 20px;
-    color: #007bff;
-}
-
-.img-text p i:hover {
-    color: green;
-}
-
-.img-text h4 {
-    line-height: 16px;
-    padding: 0;
-    margin: 16px 0;
-    font-family: big john;
-    text-align: center;
-}
-
-.single-img:hover .img-text {
-    transform: translate(0, 0);
-}
-
-.btn-container {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.btn-container .btn {
-    background: white;
-    font-size: 20px;
-    font-family: "montserrat";
-    cursor: pointer;
-    margin: 10px;
-    padding: 10px 20px;
-    transition: .6s;
-    position: relative;
-    overflow: hidden;
-    border-radius: 25%;
-}
-
-.btn-container .btn2 {
-    color: #3498db;
-}
-
-.btn-container .btn2:hover {
-    background-color: #3498db;
-    color: white;
-}
-
 .wrap {
     width: 1100px;
     margin: auto;
@@ -363,7 +218,7 @@ a {
     margin-top: 100px;
     margin-bottom: 650px;
     justify-content: space-between;
-    height: 2600px;
+    height: 3200px;
 }
 
 .profilecard {
@@ -396,83 +251,6 @@ a {
 
 
 /*----- End of leadership profile -----*/
-
-
-/*----- Get in touch -----*/
-
-#contact {
-    background-color: #efefef;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #777;
-}
-
-hr.two {
-    border: none;
-    height: 3px;
-    background: #007bff;
-    margin-left: 450px;
-    margin-right: 450px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#contact h3 {
-    text-align: center;
-    font-weight: bold;
-}
-
-.contact-form {
-    padding: 15px;
-}
-
-.form-control {
-    border-radius: 0 !important;
-    border: none !important;
-}
-
- ::placeholder {
-    color: #999 !important;
-}
-
-.follow {
-    background: #fff;
-    padding: 10px;
-    margin: 15px;
-}
-
-.contact-info .fa {
-    margin: 10px;
-    font-weight: bold;
-}
-
-
-/*----- End of Get in Touch -----*/
-
-
-/*----- Footer -----*/
-
-.fa-heart-o {
-    color: red;
-}
-
-.footer-2 {
-    background: #343a40;
-    color: #686868;
-    text-align: right;
-    height: 80px;
-    padding-top: 10px;
-    padding-left: 50px;
-}
-
-.footer-2 .navbar-brand {
-    padding-right: 500px;
-    padding-top: 8px;
-    margin-left: -200px;
-}
-
-
-/*----- End of Footer -----*/
 
 
 /*-----Banner-----*/
@@ -678,6 +456,33 @@ hr.one {
 /*------ End of Music Ministry des. con. ------*/
 
 
+/*---- Iframe ----*/
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 40.25%;
+    height: 100%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0vh;
+    left: 20vh;
+    width: 80%;
+    height: 90%;
+}
+
+
+/*---- End of Iframe ----*/
+
+.vid-section {
+    position: relative;
+    width: 100%;
+    height: 120vh;
+}
+
+
 /*---- Map ----*/
 
 .map-section {
@@ -691,3 +496,78 @@ hr.one {
 
 
 /*---- End of Map ----*/
+
+
+/*----- Get in touch -----*/
+
+#contact {
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+hr.two {
+    border: none;
+    height: 3px;
+    background: #007bff;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+ ::placeholder {
+    color: #999 !important;
+}
+
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .fa {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+/*----- End of Get in Touch -----*/
+
+
+/*----- Footer -----*/
+
+.fa-heart-o {
+    color: red;
+}
+
+.footer-2 {
+    background: black;
+    color: #686868;
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.footer-2 .navbar-brand {
+    padding-right: 650px;
+    padding-top: 8px;
+}
+
+
+/*----- End of Footer -----*/
