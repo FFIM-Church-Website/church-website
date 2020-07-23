@@ -480,9 +480,21 @@ hr.one {
 /*---- Video Section ----*/
 
 .vid-section {
+    display: flex;
+    justify-content: center;
+    background: green;
+    color: white;
     position: relative;
     width: 100%;
     height: 120vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 
