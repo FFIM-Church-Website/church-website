@@ -523,7 +523,7 @@ hr.one {
     bottom: 0;
     min-width: -50%;
     min-height: 100%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .youth-vid-section h1 {
