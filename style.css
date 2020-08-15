@@ -438,7 +438,7 @@
 
 @media screen and (max-width:768px) {
     .gallery-section .image {
-        flex: 50%%;
+        flex: 50%;
     }
 }
 
